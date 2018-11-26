@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array  name="dropDownArray" >
+        <item>Landscape</item>
+        <item>Architecture</item>
+        <item>Art</item>
+        <item>City</item>
+        <item>Textures</item>
+        <item>Earth</item>
+    </string-array>
+    <string-array  name="dialog" >
+        <item>Camera</item>
+        <item>Gallery</item>
+    </string-array>
+    <string-array  name="setWallpaper" >
+        <item>Home Screen</item>
+        <item>Lock Screen</item>
+        <item>Both</item>
+    </string-array>
+</resources>

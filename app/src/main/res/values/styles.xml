@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:statusBarColor">?android:attr/colorPrimary</item>
+        <item name="android:textColorPrimaryInverse">
+            @color/common_google_signin_btn_text_dark_focused
+        </item>
+        <item name="android:textColorSecondary">@android:color/black</item>
+        <item name="android:textColorSecondaryInverse">@android:color/primary_text_light_nodisable
+        </item>
+        <item name="android:colorForeground">@color/common_google_signin_btn_text_dark_focused</item>
+    </style>
+
+    <style name="Wallpaper" parent="Theme.AppCompat.Light.DarkActionBar" >
+        <item name="android:textColorPrimary">@color/text_color_primary</item>
+        <item name="android:statusBarColor">?android:attr/colorPrimary</item>
+    </style>
+
+</resources>

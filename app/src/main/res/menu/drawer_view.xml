@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/goHome"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/addPicture"
+            android:icon="@drawable/file_upload"
+            android:title="Upload" />
+        <item
+            android:id="@+id/goProfile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/logoutButton"
+            android:icon="@drawable/ic_logout"
+            android:title="Logout"
+            />
+    </group>
+
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/landscape"
+            android:title="Landscape"
+            />
+        <item
+            android:id="@+id/Architecture"
+            android:title="Architecture"
+            />
+        <item
+            android:id="@+id/Art"
+            android:title="Art"
+            />
+        <item
+            android:id="@+id/City"
+            android:title="City"
+            />
+        <item
+            android:id="@+id/Textures"
+            android:title="Textures"
+            />
+        <item
+            android:id="@+id/Earth"
+            android:title="Earth"
+            />
+    </group>
+</menu>
